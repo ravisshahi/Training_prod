@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hotel Reservation Form  </title>
+    </head>
+    <body>
+        <form>
+            <h2>Hotel Booking</h2>
+            <label for="fname">First name &nbsp;</label>
+            <input required type="text" id="fname" name="fname" placeholder="Enter First name"><br>
+            <p></p>
+            <label for="mname">Middle name &nbsp;</label>
+            <input required type="text" id="mname" name="mname" placeholder="Enter Middle name"><br>
+            <p></p>
+            <label for="lname">Last name &nbsp;</label>
+            <input required type="text" id="lname" name="lname" placeholder="Enter last name">
+            <p></p>
+            <label for="contact">Phone &nbsp;&nbsp;</label>
+            <input required type="tel" id="contact" name="Contact" placeholder="Enter contact number">
+            <p></p>
+            <label for="email">Email &nbsp;&nbsp;</label>
+            <input required type="email" id="email" name="email" placeholder="Enter email id">
+            <p></p>
+            <label for="adate">Check-in Date &nbsp;</label>
+            <input required type="datetime-local" id="adate"><br>
+            <p></p>
+            <label for="ddate">Check-out Date &nbsp;</label>
+            <input required type="datetime-local" id="ddate">
+            <p></p>
+            <label for="npeop">Enter number of people &nbsp;</label>
+            <input required type="number" min="1" max="12" id="npeop" name="npeop">
+            <p></p>
+            <label>Room preference &nbsp;</label>
+            <input value="Standard" type="radio" name="Room"/>Standard
+            <input value="Deluxe" type="radio" name="Room"/>Deluxe
+            <input value="Suite" type="radio" name="Room"/>Suite
+            <p></p>
+            <input type="submit"/>
+        </form>
+    </body>
+</html>

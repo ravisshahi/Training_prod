@@ -1,0 +1,34 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+
+}
+
+header{
+    background-color: gold;
+    width:1600px;
+    height:100px;
+    margin: 0px 0px;
+    padding: 10px;
+
+}
+header .container{
+    width: 1200px;
+    margin: 0 auto;
+
+    
+
+}
+#headernav{
+    display:flex;
+    justify-content: space-between;
+}
+#menu ul li{
+    display: inline;
+    align-self: flex-end;
+}
+#logo img{
+    height: auto;
+    width: 100px;
+}

@@ -1,0 +1,8 @@
+#box{
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    background-color: gold;
+    box-shadow: 15px 10px 5p1px rgb(71, 14, 128);
+    background: linear-gradient( 20deg, red, black);
+}

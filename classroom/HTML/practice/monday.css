@@ -1,0 +1,103 @@
+*{
+	margin: 0px;
+	padding:0px;
+}
+header.Container{
+	width:1265px;
+	height:45px;
+	margin:0px 100px;
+	padding: 10px;
+}
+nav ul li{
+	list-style-type:none;
+	margin: auto;
+	display: inline;
+	align-content: top right;
+	
+}
+#menu{
+	padding: 20px 0px 0px 0px;
+}
+#menu li{
+	display:inline;
+	padding:0px;
+}
+#menu li a:link{
+	color:aqua;
+	padding: 20px 10p;
+}
+#menu,#logo{
+	float:left;
+}
+#searchbar{
+	padding-top: 15px;
+	float: right;
+}
+#sbar{
+	width: auto;
+	height: 25px;
+	
+}
+#searchbar{
+	padding-left: 200px;
+
+}
+
+#sbutton{
+	height: 25px;
+}
+.cointainer2{
+	background-color: yellowgreen;
+	width: auto;
+	height: 250px;
+
+}
+.cointainer3{
+	height: 600px;
+	background-color:orange;
+}
+#heading{
+	padding-top: 50px;
+	padding-left: 100px;
+}
+.images, .materials{
+	padding-top: 20px;
+	padding: 100px;
+}
+#image1,#image2,#image3{
+	float: left;
+	width: 380px;
+	padding-right: 50px;
+}
+#heading1,#heading2,#heading3{
+	padding: 10px 0px 0px 0px;
+	color:orange;
+}
+.cointainer4{
+	background-color:blue;
+	height:300px;
+}
+.cointainer4 #logo1{
+	width: 5px;
+	height: auto;
+}
+.cointainer4 #logo1{
+	width: 5px;
+	height:auto;
+}
+.cointainer4 #logo1, #cointainer4 #h3{
+	float: left;
+
+}
+#logo1{
+	padding-top: 10px;
+	width: 50px;
+}
+#h3{
+	padding-top: 16px;
+}
+#material1,#material2,#material3{
+	width: 300px;
+	float: left;
+	padding-right: 50px;
+}

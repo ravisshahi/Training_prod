@@ -1,0 +1,20 @@
+/*div{
+    background-color: royalblue;
+}*/
+body{
+    font-size: 28px;
+}
+
+    
+
+#products .product{
+    background-color:rgba(58, 23, 23, 0.959);
+}
+#todayfashion .product{
+    background-color:rgb(20, 64, 174);
+}
+
+#Deal{
+    background-color: aqua;
+    font-size: 3em;
+}
